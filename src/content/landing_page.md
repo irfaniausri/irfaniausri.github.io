@@ -1,0 +1,8 @@
+
+My background is in physiology, chemistry (nanotechnology), and wearable biosensors. I completed my BSc in Physiology at [McGill University](https://www.mcgill.ca/) before pursuing a PhD in Chemistry (Nanotechnology) at University of Waterloo under the supervision of [Prof. Shirley Tang](https://uwaterloo.ca/chemistry/profile/tangxw). My doctoral work focused on carbon nanotube biohybrid based microneedle wearable sensors. During this time, I received the W.S. Rickert Graduate Fellowship in Science and the Waterloo Institute of Nanotechnology Nanofellowship.
+
+I later joined the [IDEATION Lab](https://www.ideation-lab.com/) at the University of Waterloo as a postdoctoral researcher under [Prof. Mahla Poudineh](https://uwaterloo.ca/electrical-computer-engineering/profile/m2poudin). I led the development of wearable hydrogel microneedle sensors for continuous ketone monitoring, with results [published](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202402009) in [Advanced Materials](https://advanced.onlinelibrary.wiley.com/journal/15214095).
+
+My earlier research experiences included protein delivery systems at [St. Michael's Hospital](https://unityhealth.to/locations/st-michaels-hospital/) and immunometabolism research at the [Institute of Parasitology at McGill University](https://www.mcgill.ca/parasitology/).
+
+I also enjoy sharing scientific developments and have been involved in science communication through co-hosting a [nanotechnology podcast](https://open.spotify.com/show/7nOt6oGxfclxy4AxjBDol1) ([Instagram](https://www.instagram.com/imnano.official/)) and participating in [Soapbox Science](https://soapboxscience.org/2019/06/05/science-is-driven-by-passion-and-curiosity-meet-irfani-rahmi-ausri/).
