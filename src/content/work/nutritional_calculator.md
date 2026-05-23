@@ -30,6 +30,12 @@ into a single processing pipeline.
 
 ## Recipe Calculator Main UI
 
+<Figure
+  src="../../assets/images/nutritional_calculator/main_recipe_calculator_w_conversion.jpg"
+  caption="Recipe calculator UI showing the ingredient matching, USDA dataset integration, unit conversion handling, and modular recipe decomposition for structured nutritional estimation."
+  align="right"
+/>
+
 The recipe calculator is the central workflow of the system that combines ingredient matching, recipe decomposition, and unit conversion workflows into a single interface. The goal was to create a flexible pipeline to transform real-world recipes into structured nutritional data.
 
 The upper section of the interface stores metadata about the recipe itself, including cuisine type, preparation method, food source, and modular recipe components such as protein, sauces, or coatings.
@@ -41,6 +47,12 @@ As ingredients are processed, they are compiled into structured recipe component
 ---
 
 ## Recipe Components
+
+<Figure
+  src="../../assets/images/nutritional_calculator/components_diagram.jpg"
+  caption="Diagram showing the modular recipe system for component-specific nutritional estimation and flexible recipe handling."
+  align="center"
+/>
 
 Rather than treating recipes as a single flat list of ingredients, the system deconstructs them into components such as:
 
@@ -57,6 +69,12 @@ This modular structure can be adapted to meals like salads and pastas that conta
 ---
 
 ## Fried Food Modelling
+
+<Figure
+  src="../../assets/images/nutritional_calculator/fried_food_modelling.jpg"
+  caption="Experimental fried food modeling workflow designed to estimate oil uptake using coating structure, barrier effects, pickup coefficients, and batter consistency."
+  align="center"
+/>
 
 Fried foods are a major part of Indonesians’ diet but are often poorly represented in standard nutritional databases, especially when preparation methods significantly influence oil absorption. 
 
@@ -86,6 +104,12 @@ The system’s database contains tables such as
 - recipes
 
 to support flexible nutritional data handling.
+
+<Figure
+  src="../../assets/images/nutritional_calculator/ingredients.jpg"
+  caption="Ingredients table storing standardized USDA-linked ingredient entries, metadata, and nutritional references used across recipe processing workflows."
+  align="left"
+/>
 
 The ingredients table is the foundation of the nutrition database, storing standardized ingredient entries fetched primarily from USDA nutritional datasets alongside manually curated entries. 
 

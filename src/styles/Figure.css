@@ -1,0 +1,42 @@
+.figure {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.figure img {
+  border-radius: 8px;
+  border: 1px solid #ececec;
+}
+
+.figure figcaption {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #777;
+}
+
+.figure-center {
+  max-width: 760px;
+}
+
+.figure-left {
+  float: left;
+  width: 320px;
+  margin-right: 28px;
+}
+
+.figure-right {
+  float: right;
+  width: 320px;
+  margin-left: 28px;
+}
+
+@media (max-width: 768px) {
+  .figure-left,
+  .figure-right {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

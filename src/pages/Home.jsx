@@ -35,7 +35,7 @@ export default function Home() {
                 From wearable biosensors to health data systems.
                 </p>
 
-                <p
+                {/* <p
                 style={{
                     fontSize: "15px",
                     lineHeight: 1.8,
@@ -45,7 +45,7 @@ export default function Home() {
                 Previously worked on wearable biosensors and microneedle sensors.
                 <br />
                 Currently building data systems for personal health.
-                </p>
+                </p> */}
             </div>
             </div>
 
@@ -169,6 +169,7 @@ export default function Home() {
             project_type={item.project_type}
             status={item.status}
             article_link={item.article_link}
+            article_link={item.summary_link}
             />
         ))}
     </Section>

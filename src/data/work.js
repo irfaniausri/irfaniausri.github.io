@@ -19,7 +19,7 @@ export const work = [
     thumbnail: nutritionImg,
 
     slug: "nutritional_calculator",
-    // summary_link: "/ketone-sensor",
+    summary_link: "/ketone-sensor",
   },
 
   {
@@ -40,7 +40,7 @@ export const work = [
 
     slug: "ketone-sensor",
     article_link: "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202402009",
-    // summary_link: "/ketone-sensor",
+    summary_link: "/ketone-sensor",
   },
 
   {
@@ -61,7 +61,7 @@ export const work = [
 
     slug: "review-paper",
     article_link: "https://www.sciencedirect.com/science/article/pii/S2590137023001024",
-    // summary_link: "/review-paper",
+    summary_link: "/review-paper",
   },
 
   {

@@ -12,6 +12,12 @@ slug: "ketone-sensor"
 
 Diabetic ketoacidosis (DKA) is a life-threatening complication of type 1 diabetes caused by elevated ketone levels. Despite its severity, ketone monitoring today is not continuous and less accessible than glucose monitoring.
 
+<Figure
+  src="../../assets/images/ketone_paper/overall_schematic.jpg"
+  caption="Schematic of the wearable hydrogel microneedle sensor for continuous ketone monitoring."
+  align="center"
+/>
+
 This project explored a wearable continuous ketone monitoring system based on skin-compatible hydrogel microneedles capable of sampling interstitial fluid beneath the skin surface with minimal discomfort.
 
 The system combined:
@@ -52,9 +58,21 @@ The sensing platform integrated:
 2. catechol-quinone chemistry for enzymatic ketone sensing
 3. a hydrogel matrix for continuous skin-compatible operation
 
+<Figure
+  src="../../assets/images/ketone_paper/sensing_mechanism.jpg"
+  caption="Illustration of the multi-step electrochemical sensing process used to for ketone detection."
+  align="center"
+/>
+
 The sensing mechanism relied on enzymatic oxidation of β-hydroxybutyrate (β-HB), where electrochemical changes generated within the hydrogel were measured and correlated with ketone concentration over time.
 
 Since the sensing chemistry operates under physiological conditions where there are limited reactive quinone species, a staged electrochemical detection protocol was developed to enhance signal stability and sensitivity. The detection protocol used a pre-oxidation step followed by a timed detection step to enable the accuracy and consistency across sensors.
+
+<Figure
+  src="../../assets/images/ketone_paper/microneedles.jpg"
+  caption="Scanning electron microscopy (SEM) images of the hydrogel microneedle arrays."
+  align="left"
+/>
 
 The microneedle arrays were engineered to provide:
 
@@ -68,6 +86,12 @@ Structural and mechanical characterization confirmed stable needle integrity and
 ---
 
 ## Validation
+
+<Figure
+  src="../../assets/images/ketone_paper/animal_validation.jpg"
+  caption="In vivo validation of continuous ketone monitoring across multiple type 1 diabetic rat models and correlation with reference blood ketone measurements."
+  align="right"
+/>
 
 The sensor was evaluated in a type 1 diabetic rat model under physiologically relevant conditions and successfully tracked dynamic ketone changes over time.
 

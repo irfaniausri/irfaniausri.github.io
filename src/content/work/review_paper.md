@@ -36,6 +36,12 @@ Real-world deployment is further complicated by physiological variability, where
 
 WBS can broadly be categorized based on their transduction mechanism and target biofluids. 
 
+<Figure
+  src="../../assets/images/review_paper/WBS_landscape.jpg"
+  caption="Overview of the wearable biochemical sensing landscape."
+  align="center"
+/>
+
 ### Transduction Mechanisms
 
 There are two dominating transduction mechanism: electrochemical and optical. 
@@ -62,6 +68,12 @@ Ocular fluid and saliva-based sensors are emerging wearable sensing platforms. O
 ---
 
 ## Future Directions
+
+<Figure
+  src="../../assets/images/review_paper/future_direction.jpg"
+  caption="Conceptual framework of future wearable biochemical sensing platforms."
+  align="center"
+/>
 
 As WBS continues to develop beyond single biomarker systems towards integrated sensing systems, emerging approaches currently validated only in vitro may help address limitations associated with real-world deployment.
 
