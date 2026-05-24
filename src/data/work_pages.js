@@ -23,7 +23,7 @@ export const workPages = {
       "Irfani Rahmi Ausri, Sadegh Sadeghzadeh, Subhamoy Biswas, Hanjia Zheng, Peyman GhavamiNejad, Michelle Dieu Thao Huynh, Fatemeh Keyvani, Erfan Shirzadi, Fasih A Rahman, Joe Quadrilatero, Amin GhavamiNejad, Mahla Poudineh",
     markdown: "ketone_sensor.md",
 
-    slug: "ketone-sensor",
+    slug: "ketone_sensor",
     article_link: "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202402009",
   },
 
@@ -36,7 +36,7 @@ export const workPages = {
       "Irfani Rahmi Ausri, Yael Zilberman, Sarah Schneider, Xiaowu Shirley Tang",
     markdown: "review_paper.md",
 
-    slug: "review-paper",
+    slug: "review_paper",
     article_link: "https://www.sciencedirect.com/science/article/pii/S2590137023001024",
   },
 };

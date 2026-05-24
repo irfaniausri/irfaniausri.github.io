@@ -1,70 +1,123 @@
 export default function ProjectPageLayout({
-  title,
-  metadata,
-  heroImage,
-  heroCaption,
+  page,
   children,
 }) {
+
   return (
     <main>
       <header
         style={{
           marginTop: "72px",
-          marginBottom: "56px",
+          marginBottom: "10px",
+          maxWidth: "860px",
         }}
       >
+        {/* TITLE */}
         <h1
           style={{
-            fontSize: "42px",
+            fontSize: "30px",
             lineHeight: 1.2,
             fontWeight: 600,
-            marginBottom: "18px",
-            maxWidth: "820px",
+            marginBottom: "20px",
+            color: "#222",
           }}
         >
-          {title}
+          {page.title}
         </h1>
 
+        {/* METADATA */}
         <div
+          className="project-metadata"
           style={{
-            fontSize: "14px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "10px",
+            fontSize: "18px",
             color: "#777",
             lineHeight: 1.7,
           }}
         >
-          {metadata}
-        </div>
-      </header>
+          {/* YEAR */}
+          <div>
+            {page.year}
+          </div>
 
-      {heroImage && (
-        <figure
-          style={{
-            marginBottom: "56px",
-          }}
-        >
-          <img
-            src={heroImage}
-            alt={heroCaption}
-            style={{
-              borderRadius: "10px",
-              border: "1px solid #ececec",
-            }}
-          />
+          {/* PUBLICATION TYPE */}
+          {page.journal && (
+            <div>
+              <strong style={{ color: "#555" }}>
+                Journal:
+              </strong>{" "}
+              {page.journal}
+            </div>
+          )}
 
-          {heroCaption && (
-            <figcaption
+          {/* PROJECT TYPE */}
+          {page.project_type && (
+            <div>
+              <strong style={{ color: "#555" }}>
+                Type:
+              </strong>{" "}
+              {page.project_type}
+
+              {page.status && (
+                <>
+                  {" · "}
+                  {page.status}
+                </>
+              )}
+            </div>
+          )}
+
+          {/* AUTHORS */}
+          {page.authors && (
+            <div
               style={{
-                marginTop: "12px",
-                fontSize: "13px",
-                color: "#777",
-                lineHeight: 1.6,
+                maxWidth: "760px",
               }}
             >
-              {heroCaption}
-            </figcaption>
+              <strong style={{ color: "#555" }}>
+                Authors:
+              </strong>{" "}
+              {/* {page.authors} */}
+              {page.authors
+                .split("Irfani Rahmi Ausri")
+                .reduce((prev, curr, index) => [
+                  ...prev,
+                  index > 0 && (
+                    <strong key={index}>
+                      Irfani Rahmi Ausri
+                    </strong>
+                  ),
+                  curr,
+                ], [])}
+            </div>
           )}
-        </figure>
-      )}
+
+          {/* ARTICLE LINK */}
+          {page.article_link && (
+            <div
+              style={{
+                marginTop: "20px",
+              }}
+            >
+              <a
+                href={page.article_link}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  color: "#444",
+                  textDecoration: "underline",
+                  textUnderlineOffset: "3px",
+                  textDecorationColor: "#ccc",
+                }}
+              >
+                Published Article
+              </a>
+            </div>
+          )}
+        </div>
+      </header>
 
       <div className="markdown-content">
         {children}

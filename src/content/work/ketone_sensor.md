@@ -1,22 +1,13 @@
----
-title: "Multifunctional Dopamine-Based Hydrogel Microneedle Electrode for Continuous Ketone Sensing"
-year: 2024
-journal: "Advanced Materials"
-authors: "Irfani Rahmi Ausri, Sadegh Sadeghzadeh, ..., Amin GhavamiNejad, and Mahla Poudineh"
-summary: "Led the design and validation of a wearable hydrogel microneedle platform for continuous ketone monitoring. This project involved the development of a novel microneedle biosensor platform, diabetic rat validation, and data-driven modeling of ketone dynamics."
-thumbnail: "ketone.jpg"
-slug: "ketone-sensor"
----
-
 ## Overview
 
 Diabetic ketoacidosis (DKA) is a life-threatening complication of type 1 diabetes caused by elevated ketone levels. Despite its severity, ketone monitoring today is not continuous and less accessible than glucose monitoring.
 
-<Figure
-  src="../../assets/images/ketone_paper/overall_schematic.jpg"
-  caption="Schematic of the wearable hydrogel microneedle sensor for continuous ketone monitoring."
-  align="center"
-/>
+::figure
+src: overall_schematic.jpg
+caption: Schematic of the wearable hydrogel microneedle sensor for continuous ketone monitoring.
+width: 680px
+align: center
+::
 
 This project explored a wearable continuous ketone monitoring system based on skin-compatible hydrogel microneedles capable of sampling interstitial fluid beneath the skin surface with minimal discomfort.
 
@@ -58,21 +49,23 @@ The sensing platform integrated:
 2. catechol-quinone chemistry for enzymatic ketone sensing
 3. a hydrogel matrix for continuous skin-compatible operation
 
-<Figure
-  src="../../assets/images/ketone_paper/sensing_mechanism.jpg"
-  caption="Illustration of the multi-step electrochemical sensing process used to for ketone detection."
-  align="center"
-/>
+::figure
+src: sensing_mechanism.jpg
+caption: Illustration of the multi-step electrochemical sensing process used to for ketone detection.
+width: 720px
+align: center
+::
 
 The sensing mechanism relied on enzymatic oxidation of β-hydroxybutyrate (β-HB), where electrochemical changes generated within the hydrogel were measured and correlated with ketone concentration over time.
 
 Since the sensing chemistry operates under physiological conditions where there are limited reactive quinone species, a staged electrochemical detection protocol was developed to enhance signal stability and sensitivity. The detection protocol used a pre-oxidation step followed by a timed detection step to enable the accuracy and consistency across sensors.
 
-<Figure
-  src="../../assets/images/ketone_paper/microneedles.jpg"
-  caption="Scanning electron microscopy (SEM) images of the hydrogel microneedle arrays."
-  align="left"
-/>
+::figure
+src: microneedles.jpg
+caption: Scanning electron microscopy (SEM) images of the hydrogel microneedle arrays.
+width: 480px
+align: center
+::
 
 The microneedle arrays were engineered to provide:
 
@@ -87,11 +80,12 @@ Structural and mechanical characterization confirmed stable needle integrity and
 
 ## Validation
 
-<Figure
-  src="../../assets/images/ketone_paper/animal_validation.jpg"
-  caption="In vivo validation of continuous ketone monitoring across multiple type 1 diabetic rat models and correlation with reference blood ketone measurements."
-  align="right"
-/>
+::figure
+src: animal_validation.jpg
+caption: In vivo validation of continuous ketone monitoring across multiple type 1 diabetic rat models and correlation with reference blood ketone measurements.
+width: 520px
+align: center
+::
 
 The sensor was evaluated in a type 1 diabetic rat model under physiologically relevant conditions and successfully tracked dynamic ketone changes over time.
 

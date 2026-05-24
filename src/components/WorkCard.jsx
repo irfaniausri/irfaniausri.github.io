@@ -25,7 +25,7 @@ export default function WorkCard({
       {/* YEAR */}
       <div
         style={{
-          fontSize: "14px",
+          fontSize: "18px",
           color: "#888",
           paddingTop: "2px",
         }}

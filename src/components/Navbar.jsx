@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <nav
@@ -10,10 +12,19 @@ export default function Navbar() {
         borderBottom: "1px solid #f0f0f0",
       }}
     >
-      <div style={{ fontWeight: 600 }}>
+      {/* NAME */}
+      <Link
+        to="/"
+        style={{
+          fontWeight: 600,
+          color: "#222",
+          textDecoration: "none",
+        }}
+      >
         Irfani Rahmi Ausri
-      </div>
+      </Link>
 
+      {/* NAV LINKS */}
       <div
         style={{
           display: "flex",
@@ -22,8 +33,15 @@ export default function Navbar() {
           fontSize: "15px",
         }}
       >
-        {/* <a href="#projects">Publication Summaries</a>
-        <a href="#research">Project Summary</a> */}
+        <Link
+          to="/"
+          style={{
+            color: "#777",
+            textDecoration: "none",
+          }}
+        >
+          Home
+        </Link>
       </div>
     </nav>
   );

@@ -40,3 +40,17 @@
     margin-right: 0;
   }
 }
+
+.figure-center {
+  max-width: 620px;
+  margin: 48px auto;
+}
+
+.figure-center img {
+  width: 100%;
+}
+
+.figure img {
+  width: 100%;
+  height: auto;
+}

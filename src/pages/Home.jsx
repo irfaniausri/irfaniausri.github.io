@@ -12,22 +12,23 @@ export default function Home() {
     <main>
       <Section id="about">
         <div className="about-grid">
-            {/* LEFT */}
+
+            {/* MAIN CONTENT */}
             <div>
             <div
                 style={{
                 marginTop: "40px",
-                marginBottom: "42px",
-                maxWidth: "620px",
+                maxWidth: "760px",
                 }}
             >
+                {/* INTRO STATEMENTS */}
                 <p
                 style={{
                     fontSize: "20px",
                     lineHeight: 1.6,
                     color: "#444",
-                    marginBottom: "10px",
                     fontWeight: 500,
+                    marginBottom: "36px",
                 }}
                 >
                 Working on systems for personal health.
@@ -35,21 +36,38 @@ export default function Home() {
                 From wearable biosensors to health data systems.
                 </p>
 
-                {/* <p
+                {/* LONG-FORM CONTENT */}
+                <div
                 style={{
-                    fontSize: "15px",
-                    lineHeight: 1.8,
                     color: "#555",
+                    lineHeight: 1.8,
+                    fontSize: "15px",
                 }}
                 >
-                Previously worked on wearable biosensors and microneedle sensors.
-                <br />
-                Currently building data systems for personal health.
-                </p> */}
+                <ReactMarkdown
+                    components={{
+                    a: ({ node, ...props }) => (
+                        <a
+                        {...props}
+                        style={{
+                            color: "#222",
+                            textDecoration: "underline",
+                            textUnderlineOffset: "3px",
+                            textDecorationColor: "#bbb",
+                        }}
+                        target="_blank"
+                        rel="noreferrer"
+                        />
+                    ),
+                    }}
+                >
+                    {landingContent}
+                </ReactMarkdown>
+                </div>
             </div>
             </div>
 
-            {/* RIGHT */}
+            {/* SIDEBAR */}
             <div>
             <img
                 src={headshot}
@@ -59,7 +77,7 @@ export default function Home() {
                 borderRadius: "8px",
                 objectFit: "cover",
                 border: "1px solid #efefef",
-                marginBottom: "10px",
+                marginBottom: "14px",
                 }}
             />
 
@@ -83,8 +101,8 @@ export default function Home() {
                 Google Scholar
                 </a>
 
-                {/* <a
-                href="https://github.com/irfaniausri"
+                <a
+                href="https://www.linkedin.com/in/irfani-ausri-a2293a210/"
                 target="_blank"
                 rel="noreferrer"
                 style={{
@@ -92,44 +110,14 @@ export default function Home() {
                     textDecoration: "none",
                 }}
                 >
-                GitHub
-                </a> */}
+                LinkedIn
+                </a>
             </div>
             </div>
-        </div>
 
-        {/* FULL WIDTH CONTENT */}
-        <div
-            style={{
-            maxWidth: "760px",
-            color: "#555",
-            lineHeight: 1.7,
-            fontSize: "15px",
-            marginTop: "20px",
-            }}
-        >
-            <ReactMarkdown
-            components={{
-                a: ({ node, ...props }) => (
-                <a
-                    {...props}
-                    style={{
-                    color: "#222",
-                    textDecoration: "underline",
-                    textUnderlineOffset: "3px",
-                    textDecorationColor: "#bbb",
-                    transition: "0.2s ease",
-                    }}
-                    target="_blank"
-                    rel="noreferrer"
-                />
-                ),
-            }}
-            >
-            {landingContent}
-            </ReactMarkdown>
         </div>
         </Section>
+    
 
       <Section id="work" title="Selected Publications and Projects">
         <p
@@ -169,7 +157,7 @@ export default function Home() {
             project_type={item.project_type}
             status={item.status}
             article_link={item.article_link}
-            article_link={item.summary_link}
+            summary_link={item.summary_link}
             />
         ))}
     </Section>
