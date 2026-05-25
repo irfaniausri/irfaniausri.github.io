@@ -31,7 +31,7 @@ export default function ReviewPaperPage() {
           return (
             <Figure
               key={index}
-              src={`/src/assets/images/review_paper/${src}`}
+              src={`/images/review_paper/${src}`}
               caption={caption}
               align={align}
               width={width}

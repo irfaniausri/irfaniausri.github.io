@@ -31,7 +31,7 @@ export default function KetoneSensorPage() {
           return (
             <Figure
               key={index}
-              src={`/src/assets/images/ketone_paper/${src}`}
+              src={`/images/ketone_paper/${src}`}
               caption={caption}
               align={align}
               width={width}

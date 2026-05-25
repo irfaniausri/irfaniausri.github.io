@@ -30,7 +30,7 @@ export default function NutritionalCalculatorPage() {
             return (
               <Figure
                 key={index}
-                src={`/src/assets/images/nutritional_calculator/${src}`}
+                src={`images/nutritional_calculator/${src}`}
                 caption={caption}
                 align={align}
                 width={width}
