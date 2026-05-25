@@ -4,7 +4,7 @@ Diabetic ketoacidosis (DKA) is a life-threatening complication of type 1 diabete
 
 ::figure
 src: overall_schematic.jpg
-caption: Schematic of the wearable hydrogel microneedle sensor for continuous ketone monitoring.
+caption: Schematic of the wearable hydrogel microneedle sensor for continuous ketone monitoring. Adapted from our publication in Advanced Materials (2024), CC BY 4.0. Created with BioRender.com.
 width: 680px
 align: center
 ::
@@ -51,7 +51,7 @@ The sensing platform integrated:
 
 ::figure
 src: sensing_mechanism.jpg
-caption: Illustration of the multi-step electrochemical sensing process used to for ketone detection.
+caption: Illustration of the multi-step electrochemical sensing process used to for ketone detection. Adapted from our publication in Advanced Materials (2024), CC BY 4.0. Created with BioRender.com.
 width: 720px
 align: center
 ::
@@ -62,7 +62,7 @@ Since the sensing chemistry operates under physiological conditions where there 
 
 ::figure
 src: microneedles.jpg
-caption: Scanning electron microscopy (SEM) images of the hydrogel microneedle arrays.
+caption: Scanning electron microscopy (SEM) images of the hydrogel microneedle arrays. Adapted from our publication in Advanced Materials (2024), CC BY 4.0.
 width: 480px
 align: center
 ::
@@ -82,7 +82,7 @@ Structural and mechanical characterization confirmed stable needle integrity and
 
 ::figure
 src: animal_validation.jpg
-caption: In vivo validation of continuous ketone monitoring across multiple type 1 diabetic rat models and correlation with reference blood ketone measurements.
+caption: In vivo validation of continuous ketone monitoring across multiple type 1 diabetic rat models and correlation with reference blood ketone measurements. Adapted from our publication in Advanced Materials (2024), CC BY 4.0.
 width: 520px
 align: center
 ::

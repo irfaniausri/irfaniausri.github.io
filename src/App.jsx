@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Layout from "./layouts/Layout";
 import Navbar from "./components/Navbar";
@@ -11,7 +11,7 @@ import ReviewPaperPage from "./pages/ReviewPaperPage";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Navbar />
 
@@ -34,6 +34,6 @@ export default function App() {
 
         <Footer />
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
