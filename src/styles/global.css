@@ -37,6 +37,14 @@ img {
   .about-grid {
     grid-template-columns: 1fr;
   }
+
+  .about-grid > :first-child {
+    order: 2;
+  }
+
+  .about-grid > :last-child {
+    order: 1;
+  }
 }
 
 /* additions to global.css */

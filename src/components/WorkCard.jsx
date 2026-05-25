@@ -13,12 +13,16 @@ export default function WorkCard({
   article_link,
   summary_link,
 }) {
+  const isMobile = window.innerWidth <= 768;
+
   return (
     <div
       style={{
         display: "grid",
-        gridTemplateColumns: "80px 1px 1fr",
-        gap: "28px",
+        gridTemplateColumns: isMobile
+          ? "1fr"
+          : "80px 1px 1fr",
+        gap: isMobile ? "18px" : "28px",
         marginBottom: "10px",
       }}
     >
@@ -34,18 +38,23 @@ export default function WorkCard({
       </div>
 
       {/* TIMELINE */}
-      <div
-        style={{
-          width: "1px",
-          background: "#e8e8e8",
-        }}
-      />
+      {!isMobile && (
+        <div
+          style={{
+            width: "1px",
+            background: "#e8e8e8",
+          }}
+        />
+      )}
 
       {/* CONTENT */}
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: thumbnail ? "1fr 240px" : "1fr",
+          gridTemplateColumns:
+            thumbnail && !isMobile
+              ? "1fr 240px"
+              : "1fr",
           gap: "28px",
           alignItems: "start",
         }}
@@ -59,7 +68,6 @@ export default function WorkCard({
               lineHeight: 1.25,
               marginBottom: "18px",
               fontWeight: 600,
-              maxWidth: "760px",
             }}
           >
             {title}
@@ -130,7 +138,6 @@ export default function WorkCard({
                 fontSize: "15px",
                 color: "#888",
                 marginBottom: "18px",
-                maxWidth: "700px",
               }}
             >
               {authors
@@ -153,7 +160,6 @@ export default function WorkCard({
               fontSize: "16px",
               color: "#555",
               lineHeight: 1.75,
-              maxWidth: "720px",
             }}
           >
             {summary}
@@ -166,7 +172,8 @@ export default function WorkCard({
             src={thumbnail}
             alt={title}
             style={{
-              width: "240px",
+              width: isMobile ? "100%" : "240px",
+              maxWidth: "240px",
               borderRadius: "6px",
               border: "1px solid #efefef",
             }}
