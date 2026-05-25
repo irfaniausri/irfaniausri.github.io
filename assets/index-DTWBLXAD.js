@@ -149,13 +149,13 @@ Although it is a foundational table, building the ingredient database highlighte
 \r
 ## Conclusion\r
 \r
-This project is an early exploration into the challenges of structuring real-world behavioral and nutritional data for longitudinal health analysis. While still experimental, building the system highlighted the complexity of real-life health data, limitations of standardized datasets, and importance of flexible computational workflows. `,Ll={nutritional_calculator:{title:`Nutrition Database & Recipe Processing System`,year:2025,project_type:`Experimental System`,status:`Prototype`,markdown:`nutritional_calculator.md`,slug:`nutritional_calculator`},ketone_sensor:{title:`Multifunctional Dopamine-Based Hydrogel Microneedle Electrode for Continuous Ketone Sensing`,year:2024,journal:`Advanced Materials`,authors:`Irfani Rahmi Ausri, Sadegh Sadeghzadeh, Subhamoy Biswas, Hanjia Zheng, Peyman GhavamiNejad, Michelle Dieu Thao Huynh, Fatemeh Keyvani, Erfan Shirzadi, Fasih A Rahman, Joe Quadrilatero, Amin GhavamiNejad, Mahla Poudineh`,markdown:`ketone_sensor.md`,slug:`ketone_sensor`,article_link:`https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202402009`},review_paper:{title:`Recent advances and challenges: Translational research of minimally invasive wearable biochemical sensors`,year:2023,journal:`Biosensors and Bioelectronics: X`,authors:`Irfani Rahmi Ausri, Yael Zilberman, Sarah Schneider, Xiaowu Shirley Tang`,markdown:`review_paper.md`,slug:`review_paper`,article_link:`https://www.sciencedirect.com/science/article/pii/S2590137023001024`}};function Rl(){let e=Ll.nutritional_calculator;return(0,M.jsx)(Fl,{page:e,children:Il.split(/(::figure[\s\S]*?::)/g).map((e,t)=>{if(e.trim().startsWith(`::figure`)){let n=e.match(/src:\s*(.*)/),r=e.match(/caption:\s*(.*)/),i=e.match(/align:\s*(.*)/),a=n?.[1]?.trim(),o=r?.[1]?.trim(),s=i?.[1]?.trim(),c=e.match(/width:\s*(.*)/)?.[1]?.trim();return(0,M.jsx)(Pl,{src:`images/nutritional_calculator/${a}`,caption:o,align:s,width:c},t)}return(0,M.jsx)(Cl,{children:e},t)})})}var K=`## Overview\r
+This project is an early exploration into the challenges of structuring real-world behavioral and nutritional data for longitudinal health analysis. While still experimental, building the system highlighted the complexity of real-life health data, limitations of standardized datasets, and importance of flexible computational workflows. `,Ll={nutritional_calculator:{title:`Nutrition Database & Recipe Processing System`,year:2025,project_type:`Experimental System`,status:`Prototype`,markdown:`nutritional_calculator.md`,slug:`nutritional_calculator`},ketone_sensor:{title:`Multifunctional Dopamine-Based Hydrogel Microneedle Electrode for Continuous Ketone Sensing`,year:2024,journal:`Advanced Materials`,authors:`Irfani Rahmi Ausri, Sadegh Sadeghzadeh, Subhamoy Biswas, Hanjia Zheng, Peyman GhavamiNejad, Michelle Dieu Thao Huynh, Fatemeh Keyvani, Erfan Shirzadi, Fasih A Rahman, Joe Quadrilatero, Amin GhavamiNejad, Mahla Poudineh`,markdown:`ketone_sensor.md`,slug:`ketone_sensor`,article_link:`https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202402009`},review_paper:{title:`Recent advances and challenges: Translational research of minimally invasive wearable biochemical sensors`,year:2023,journal:`Biosensors and Bioelectronics: X`,authors:`Irfani Rahmi Ausri, Yael Zilberman, Sarah Schneider, Xiaowu Shirley Tang`,markdown:`review_paper.md`,slug:`review_paper`,article_link:`https://www.sciencedirect.com/science/article/pii/S2590137023001024`}};function Rl(){let e=Ll.nutritional_calculator;return(0,M.jsx)(Fl,{page:e,children:Il.split(/(::figure[\s\S]*?::)/g).map((e,t)=>{if(e.trim().startsWith(`::figure`)){let n=e.match(/src:\s*(.*)/),r=e.match(/caption:\s*(.*)/),i=e.match(/align:\s*(.*)/),a=n?.[1]?.trim(),o=r?.[1]?.trim(),s=i?.[1]?.trim(),c=e.match(/width:\s*(.*)/)?.[1]?.trim();return(0,M.jsx)(Pl,{src:`/images/nutritional_calculator/${a}`,caption:o,align:s,width:c},t)}return(0,M.jsx)(Cl,{children:e},t)})})}var K=`## Overview\r
 \r
 Diabetic ketoacidosis (DKA) is a life-threatening complication of type 1 diabetes caused by elevated ketone levels. Despite its severity, ketone monitoring today is not continuous and less accessible than glucose monitoring.\r
 \r
 ::figure\r
 src: overall_schematic.jpg\r
-caption: Schematic of the wearable hydrogel microneedle sensor for continuous ketone monitoring. Adapted from our publication in Advanced Materials (2024), CC BY 4.0. Created with BioRender.com.\r
+caption: Schematic of the wearable hydrogel microneedle sensor for continuous ketone monitoring. (Adapted from our publication in Advanced Materials (2024), CC BY 4.0. Created with BioRender.com.)\r
 width: 680px\r
 align: center\r
 ::\r
@@ -202,7 +202,7 @@ The sensing platform integrated:\r
 \r
 ::figure\r
 src: sensing_mechanism.jpg\r
-caption: Illustration of the multi-step electrochemical sensing process used to for ketone detection. Adapted from our publication in Advanced Materials (2024), CC BY 4.0. Created with BioRender.com.\r
+caption: Illustration of the multi-step electrochemical sensing process used to for ketone detection. (Adapted from our publication in Advanced Materials (2024), CC BY 4.0. Created with BioRender.com.)\r
 width: 720px\r
 align: center\r
 ::\r
@@ -213,7 +213,7 @@ Since the sensing chemistry operates under physiological conditions where there 
 \r
 ::figure\r
 src: microneedles.jpg\r
-caption: Scanning electron microscopy (SEM) images of the hydrogel microneedle arrays. Adapted from our publication in Advanced Materials (2024), CC BY 4.0.\r
+caption: Scanning electron microscopy (SEM) images of the hydrogel microneedle arrays. (Adapted from our publication in Advanced Materials (2024), CC BY 4.0.)\r
 width: 480px\r
 align: center\r
 ::\r
@@ -233,7 +233,7 @@ Structural and mechanical characterization confirmed stable needle integrity and
 \r
 ::figure\r
 src: animal_validation.jpg\r
-caption: In vivo validation of continuous ketone monitoring across multiple type 1 diabetic rat models and correlation with reference blood ketone measurements. Adapted from our publication in Advanced Materials (2024), CC BY 4.0.\r
+caption: In vivo validation of continuous ketone monitoring across multiple type 1 diabetic rat models and correlation with reference blood ketone measurements. (Adapted from our publication in Advanced Materials (2024), CC BY 4.0.)\r
 width: 520px\r
 align: center\r
 ::\r
