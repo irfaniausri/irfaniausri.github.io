@@ -16,7 +16,7 @@ export const workPages = {
 
   "ketone_sensor":{
     title:
-      "Multifunctional Dopamine-Based Hydrogel Microneedle Electrode for Continuous Ketone Sensing",
+      "Multifunctional Dopamine-Based Hydrogel Microneedle Electrode for Continuous Ketone Sensing (Patented)",
     year: 2024,
     journal: "Advanced Materials",
     authors:
