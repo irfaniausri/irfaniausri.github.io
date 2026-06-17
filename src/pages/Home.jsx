@@ -142,7 +142,7 @@ export default function Home() {
             >
                 Google Scholar
             </a>{" "}
-            for the complete peer-reviewed publication and patent list.
+            for the complete publication and patent list.
         </p>
         {work.map((item, index) => (
             <WorkCard

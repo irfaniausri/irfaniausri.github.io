@@ -24,7 +24,7 @@ export const work = [
 
   {
     title:
-      "Multifunctional Dopamine-Based Hydrogel Microneedle Electrode for Continuous Ketone Sensing",
+      "Multifunctional Dopamine-Based Hydrogel Microneedle Electrode for Continuous Ketone Sensing (Patented)",
 
     year: 2024,
 
