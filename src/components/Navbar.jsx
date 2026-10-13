@@ -21,7 +21,7 @@ export default function Navbar() {
           textDecoration: "none",
         }}
       >
-        Irfani Rahmi Ausri
+        Irfani Rahmi Ausri, PhD
       </Link>
 
       {/* NAV LINKS */}
